@@ -1,0 +1,12 @@
+- python版安装脚本：[teddysun](https://teddysun.com/342.html)
+ - 配置文件路径：/etc/shadowsocks.json
+ - 启动：/etc/init.d/shadowsocks start
+ - 停止：/etc/init.d/shadowsocks stop
+ - 重启：/etc/init.d/shadowsocks restart
+ - 状态：/etc/init.d/shadowsocks status
+- tcp-hybla算法：[weaming](http://i.weaming.info/2015/04/29/Use-tcp-hybla-algorithm-to-improve-access-speed-foreign-VPS)
+- 使用rc4-md5加密：`vi /etc/shadowsocks.json`
+- net-speeder
+ - 参考[wuchong](http://wuchong.me/blog/2015/02/02/shadowsocks-install-and-optimize/)
+ - https://github.com/snooda/net-speeder
+ - `yum install libnet libpcap libnet-devel libpcap-devel`出错时运行`rm -rf /var/cache/yum/x86_64/6/epel`
